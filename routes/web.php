@@ -83,3 +83,8 @@ Route::get('/bb/b2', function () {
     return view('bb.b2');
 
 });
+
+Route::get('/gg/g1', function () {
+    return view('gg.g2');
+
+});
