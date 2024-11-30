@@ -39,11 +39,11 @@ Route::get('/aa/a2', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('ff/f1',function(){
+Route::get('/ff/f1',function(){
     return view('ff.f1');
 });
 
-Route::get('ff/f2',function(){
+Route::get('/ff/f2',function(){
     return view('ff.f2');
 });
 
