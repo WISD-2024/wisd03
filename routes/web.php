@@ -69,3 +69,7 @@ Route::get('/cc/c2', function () {
 Route::get('/bb/b1', function () {
     return view('bb.b1');
 });
+
+Route::get('/bb/b2', function () {
+    return view('bb.b2');
+});
