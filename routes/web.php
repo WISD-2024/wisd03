@@ -88,3 +88,8 @@ Route::get('/dd/d1', function () {
     return view('dd.d1');
 
 });
+
+Route::get('/dd/d2', function () {
+    return view('dd.d2');
+
+});
