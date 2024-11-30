@@ -49,3 +49,6 @@ Route::get('/ff/f2',function(){
 
 require __DIR__.'/auth.php';
 
+Route::get('/cc/c1', function () {
+    return view('cc.c1');
+});
