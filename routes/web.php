@@ -39,15 +39,16 @@ Route::get('/aa/a2', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('ff/f1',function(){
+Route::get('/ff/f1',function(){
     return view('ff.f1');
 });
 
-Route::get('ff/f2',function(){
+Route::get('/ff/f2',function(){
     return view('ff.f2');
 });
 
 require __DIR__.'/auth.php';
+
 
 Route::get('hh/h1',function(){
     return view('hh.h1');
@@ -55,4 +56,11 @@ Route::get('hh/h1',function(){
 
 Route::get('hh/h2',function(){
     return view('hh.h2');
+});
+Route::get('/cc/c1', function () {
+    return view('cc.c1');
+});
+
+Route::get('/cc/c2', function () {
+    return view('cc.c2');
 });
