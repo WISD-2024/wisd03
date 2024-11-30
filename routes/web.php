@@ -52,3 +52,7 @@ require __DIR__.'/auth.php';
 Route::get('/cc/c1', function () {
     return view('cc.c1');
 });
+
+Route::get('/cc/c2', function () {
+    return view('cc.c2');
+});
